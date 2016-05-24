@@ -1,0 +1,25 @@
+{
+    "name": "ourren/yii2-ssh2",
+    "description": "SSH2 library for yii2",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "ourren",
+            "email": "i@ourren.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.4.0",
+        "yiisoft/yii2": "*",
+        "phpseclib/phpseclib": "2.0.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "yii2ssh\\": "src/"
+        },
+        "files": [
+            "../../phpseclib/phpseclib/phpseclib/Net/SSH2.php"
+        ]
+    }
+}
