@@ -46,3 +46,5 @@ if($yii_ssh->connect($host, $auth))
 }
 ```
 
+## Ref
+The project is modified based on [thelfensdrfer/yii2sshconsole](https://github.com/thelfensdrfer/yii2sshconsole)
