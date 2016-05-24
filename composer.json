@@ -16,7 +16,7 @@
     },
     "autoload": {
         "psr-4": {
-            "yii2ssh\\": "src/"
+            "ourren\\yii2ssh\\": "src/"
         },
         "files": [
             "../../phpseclib/phpseclib/phpseclib/Net/SSH2.php"
